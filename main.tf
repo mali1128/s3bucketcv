@@ -25,5 +25,5 @@ resource "aws_s3_bucket_acl" "alicv_bucket_acl" {
 resource "aws_s3_object" "website" {
   bucket = aws_s3_bucket.cvwebsitemali.id
   source = "/home/ec2-user/environment/s3bucketcv/index.html"
-  key    = "website"
+  key    = "website1"
   }
